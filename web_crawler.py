@@ -34,7 +34,7 @@ def crawl():
         if TO_CRAWL:
             url = TO_CRAWL.pop()
             html = request(url)
-            if links:
+            if html:
                 links = get_links(html)
                 if links:
                     for link in links:
@@ -51,6 +51,10 @@ def crawl():
             break
 
 if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        print("Usage: python script.py <url>")
+        sys.exit(1)
+
     url = sys.argv[1]
     TO_CRAWL.append(url)
     crawl()
