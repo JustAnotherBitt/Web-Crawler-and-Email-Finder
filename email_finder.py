@@ -1,9 +1,11 @@
 import sys
+import re
 import requests
 from bs4 import BeautifulSoup
 
 TO_CRAWL = []
 CRAWLED = set()
+EMAILS = []
 
 def request(url):
     header = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 OPR/113.0.0.0"}
@@ -29,6 +31,12 @@ def get_links(html):
     except:
         pass
 
+def get_emails(html):
+    # capture emails with format name@domain.com
+    emails = re.findall(r"\w[\w\.]+\w@\w[\w\.]+\w", html)
+    return emails
+
+
 def crawl():
     while 1:  # = while true
         if TO_CRAWL:
@@ -41,7 +49,12 @@ def crawl():
                         if link not in CRAWLED and link not in TO_CRAWL:
                             TO_CRAWL.append(link)
 
-                print("Crawling {}".format(url))
+                emails = get_emails(html)
+                for email in emails:
+                    if email not in EMAILS:
+                        print(email)
+                        EMAILS.append(email)
+
 
                 CRAWLED.add(url)
             else:
