@@ -43,7 +43,9 @@ This script visits URLs, collects links, and extracts emails found on the pages.
 
 ### On PowerShell (Windows) with venv activated:
 
-`.\.venv\Scripts\Activate`
+Create and activate a virtual environment: `python -m venv venv`
+
+`.\venv\Scripts\Activate`
 
 `python web_crawler.py <URL>`
 
@@ -61,6 +63,8 @@ This script analyzes a web page to find and list email addresses.
 
 
 ### On PowerShell (Windows) with venv activated:
+
+Create and activate a virtual environment: `python -m venv venv`
 
 `.\.venv\Scripts\Activate`
 
