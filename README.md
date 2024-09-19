@@ -55,6 +55,11 @@ Este script visita URLs, coleta links e extrai e-mails encontrados nas páginas.
 
 Este script analisa uma página web para encontrar e listar endereços de e-mail.
 
+### Exemplo:
+
+![image](https://github.com/user-attachments/assets/a2192bfc-6021-4c9c-a8c8-5a8fb3e1d958)
+
+
 ### No PowerShell (Windows) com ativação da venv:
 
 `.\.venv\Scripts\Activate`
