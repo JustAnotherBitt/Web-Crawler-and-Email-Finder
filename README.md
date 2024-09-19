@@ -1,74 +1,74 @@
-# Web Crawler e Email Finder
+# Web Crawler and Email Finder
 
-## Descrição
+## Description
 
-Este repositório contém dois scripts Python projetados para rodar em terminais:
+This repository contains two Python scripts designed to run in terminal environments:
 
-1. **Web Crawler**: Um crawler que visita URLs, coleta links e extrai endereços de e-mail de páginas web.
-2. **Email Finder**: Um script que analisa páginas web para encontrar endereços de e-mail.
+1. **Web Crawler**: A crawler that visits URLs, collects links, and extracts email addresses from web pages.
+2. **Email Finder**: A script that analyzes web pages to find email addresses.
 
-Ambos os scripts podem ser executados a partir de um terminal, com suporte para a execução em diferentes ambientes.
+Both scripts can be executed from a terminal, with support for running in different environments.
 
-## Requisitos
+## Requirements
 
 - Python 3.x
 - `requests`
 - `beautifulsoup4`
 
-## Instalação
+## Instalation
 
-1. Clone o repositório:
+1. Clone the repository:
 `git clone <URL_DO_REPOSITORIO>`
    
-2. Navegue até o diretório do projeto:
+2. Navigate to the project directory:
 `cd <nome_do_diretorio>`
 
-3. Certifique-se de ter o python instalado em seu sistema:
+3. Make sure Python is installed on your system:
 
 - Download: https://www.python.org/downloads/
 
-4. Instale as bibliotecas:
+4. Install the libraries:
 
 - Requests: `pip install requests`
 - BeautifulSoup: `pip install beautifulsoup4`
 
 ## Web Crawler
 
-Este script visita URLs, coleta links e extrai e-mails encontrados nas páginas.
+This script visits URLs, collects links, and extracts emails found on the pages.
 
-### Exemplo:
+### Example:
 
 ![image](https://github.com/user-attachments/assets/b82d854f-f8a4-431d-b7aa-c1dea56cc4d7)
 
 
-### No PowerShell (Windows) com ativação da venv:
+### On PowerShell (Windows) with venv activated:
 
 `.\.venv\Scripts\Activate`
 
 `python web_crawler.py <URL>`
 
-### No terminal (Linux) sem venv ativado:
+### On Terminal (Linux) without venv activated:
 
 `python3 web_crawler.py <URL>`
 
 ## Email Finder
 
-Este script analisa uma página web para encontrar e listar endereços de e-mail.
+This script analyzes a web page to find and list email addresses.
 
-### Exemplo:
+### Example:
 
 ![image](https://github.com/user-attachments/assets/a2192bfc-6021-4c9c-a8c8-5a8fb3e1d958)
 
 
-### No PowerShell (Windows) com ativação da venv:
+### On PowerShell (Windows) with venv activated:
 
 `.\.venv\Scripts\Activate`
 
 `python email_finder.py <URL>`
 
-### No terminal (Linux) sem venv ativado:
+### On Terminal (Linux) without venv activated:
 
 `python3 email_finder.py <URL>`
 
-
-Substitua <URL> pela URL da página que você deseja analisar. Os scripts aceitarão URLs e processarão o conteúdo conforme especificado.
+#### Notes:
+- Replace <URL> with the URL of the page you want to analyze. The scripts will accept URLs and process the content as specified.
