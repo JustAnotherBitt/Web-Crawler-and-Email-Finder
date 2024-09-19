@@ -71,4 +71,4 @@ This script analyzes a web page to find and list email addresses.
 `python3 email_finder.py <URL>`
 
 #### Notes:
-- Replace <URL> with the URL of the page you want to analyze. The scripts will accept URLs and process the content as specified.
+- Replace `<URL>` with the URL of the page you want to analyze. The scripts will accept URLs and process the content as specified.
