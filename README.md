@@ -21,7 +21,6 @@ Ambos os scripts podem ser executados a partir de um terminal, com suporte para 
 `git clone <URL_DO_REPOSITORIO>`
    
 2. Navegue até o diretório do projeto:
-
 `cd <nome_do_diretorio>`
 
 3. Certifique-se de ter o python instalado em seu sistema:
@@ -36,6 +35,11 @@ Ambos os scripts podem ser executados a partir de um terminal, com suporte para 
 ## Web Crawler
 
 Este script visita URLs, coleta links e extrai e-mails encontrados nas páginas.
+
+### Exemplo:
+
+![image](https://github.com/user-attachments/assets/b82d854f-f8a4-431d-b7aa-c1dea56cc4d7)
+
 
 ### No PowerShell (Windows) com ativação da venv:
 
