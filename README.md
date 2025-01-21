@@ -18,10 +18,10 @@ Both scripts can be executed from a terminal, with support for running in differ
 ## Instalation
 
 1. Clone the repository:
-`git clone <URL_DO_REPOSITORIO>`
+`git clone https://github.com/JustAnotherBitt/Web-Crawler-and-Email-Finder`
    
 2. Navigate to the project directory:
-`cd <nome_do_diretorio>`
+`cd <directory>`
 
 3. Make sure Python is installed on your system:
 
