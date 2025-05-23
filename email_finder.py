@@ -168,6 +168,6 @@ def main(config_path: str):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        logger.error("Usage: python email_finder_v2.py")
+        logger.error("Usage: python email_finder.py entries/crawl_config.json")
         sys.exit(1)
     main(sys.argv[1])
