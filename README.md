@@ -29,11 +29,17 @@ Both scripts can be executed from a terminal, with support for running in differ
 
 4. Install the libraries (within a virtual environment):
 
-```python -m venv venv```
+```
+python -m venv venv
+```
 
-```source venv/bin/activate```
+```
+source venv/bin/activate
+```
 
-```pip install requirements.txt```
+```
+pip install requirements.txt
+```
 
 ## Web Crawler
 
