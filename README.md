@@ -12,8 +12,7 @@ Both scripts can be executed from a terminal, with support for running in differ
 ## Requirements
 
 - Python 3.x
-- `requests`
-- `beautifulsoup4`
+- `requests` and `beautifulsoup4` (`requirements.txt`)
 
 ## Instalation
 
