@@ -1,3 +1,2 @@
-re
 requests
 beautifulsoup4
