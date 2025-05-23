@@ -17,10 +17,16 @@ Both scripts can be executed from a terminal, with support for running in differ
 ## Instalation
 
 1. Clone the repository:
-`git clone https://github.com/JustAnotherBitt/Web-Crawler-and-Email-Finder`
+
+```
+git clone https://github.com/JustAnotherBitt/Web-Crawler-and-Email-Finder
+```
    
 2. Navigate to the project directory:
-`cd Web-Crawler-and-Email-Finder`
+
+```
+cd Web-Crawler-and-Email-Finder
+```
 
 3. Make sure Python is installed on your system:
 
