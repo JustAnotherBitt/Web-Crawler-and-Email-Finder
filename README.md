@@ -50,17 +50,17 @@ This script visits URLs, collects links, and extracts emails found on the pages.
 ![image](https://github.com/user-attachments/assets/b82d854f-f8a4-431d-b7aa-c1dea56cc4d7)
 
 
-### On PowerShell (Windows) with venv activated:
+### On PowerShell (Windows):
 
-Create and activate a virtual environment: `python -m venv venv`
+```
+python web_crawler.py <URL>
+```
 
-`.\venv\Scripts\Activate`
+### On Terminal (Linux):
 
-`python web_crawler.py <URL>`
-
-### On Terminal (Linux) without venv activated:
-
-`python3 web_crawler.py <URL>`
+```
+python3 web_crawler.py <URL>
+```
 
 ## Email Finder
 
@@ -71,17 +71,17 @@ This script analyzes a web page to find and list email addresses.
 ![image](https://github.com/user-attachments/assets/a2192bfc-6021-4c9c-a8c8-5a8fb3e1d958)
 
 
-### On PowerShell (Windows) with venv activated:
+### On PowerShell (Windows):
 
-Create and activate a virtual environment: `python -m venv venv`
+```
+python web_crawler.py <URL>
+```
 
-`.\.venv\Scripts\Activate`
+### On Terminal (Linux):
 
-`python email_finder.py <URL>`
-
-### On Terminal (Linux) without venv activated:
-
-`python3 email_finder.py <URL>`
+```
+python3 web_crawler.py <URL>
+```
 
 #### Notes:
 - Replace `<URL>` with the URL of the page you want to analyze. The scripts will accept URLs and process the content as specified.
