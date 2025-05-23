@@ -21,16 +21,19 @@ Both scripts can be executed from a terminal, with support for running in differ
 `git clone https://github.com/JustAnotherBitt/Web-Crawler-and-Email-Finder`
    
 2. Navigate to the project directory:
-`cd <directory>`
+`cd Web-Crawler-and-Email-Finder`
 
 3. Make sure Python is installed on your system:
 
 - Download: https://www.python.org/downloads/
 
-4. Install the libraries:
+4. Install the libraries (within a virtual environment):
 
-- Requests: `pip install requests`
-- BeautifulSoup: `pip install beautifulsoup4`
+```python -m venv venv```
+
+```source venv/bin/activate```
+
+```pip install requirements.txt```
 
 ## Web Crawler
 
