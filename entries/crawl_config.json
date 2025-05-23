@@ -1,0 +1,7 @@
+{
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+  "start_url": "https://hacom.vn/",
+  "email_regex": "[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}",
+  "timeout_interval": 10,
+  "max_depth": 1
+}

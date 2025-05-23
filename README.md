@@ -72,6 +72,15 @@ python3 web_crawler.py <URL>
 
 This script analyzes a web page to find and list email addresses.
 
+Go to file `entries/crawl_config.json` and change to desired settings
+
+Configurable values are:
+- `user_agent`: User-Agent string sent in HTTP headers to identify the crawler
+- `start_url`: Initial URL from which the crawler will begin traversing
+- `email_regex`: Regex used to match email addresses on each visited page
+- `timeout_interval`: Maximum time (in seconds) to wait for a response from a server
+- `max_depth`: Maximum number of link levels (hops) to follow from the start URL
+
 ### Example:
 
 ![image](https://github.com/user-attachments/assets/a2192bfc-6021-4c9c-a8c8-5a8fb3e1d958)
@@ -80,13 +89,13 @@ This script analyzes a web page to find and list email addresses.
 ### On PowerShell (Windows):
 
 ```
-python web_crawler.py <URL>
+python email_finder.py entries/crawl_config.json
 ```
 
 ### On Terminal (Linux):
 
 ```
-python3 web_crawler.py <URL>
+python email_finder.py entries/crawl_config.json
 ```
 
 #### Notes:
